@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/lv"
+        android:background="@color/color_gray"/>
+    <LinearLayout
+        android:id="@+id/ll_edit_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@color/color_white"
+        android:orientation="horizontal"
+        android:translationZ="10dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/ll_cancel"
+            style="@style/EditBarItemStyle">
+
+            <ImageView
+                style="@style/EditBarImageViewStyle"
+                android:src="@drawable/ic_cancel" />
+
+            <TextView
+                style="@style/EditBarTextViewStyle"
+                android:text="@string/str_cancel" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_delete"
+            style="@style/EditBarItemStyle">
+
+            <ImageView
+                style="@style/EditBarImageViewStyle"
+                android:layout_height="17dp"
+                android:src="@drawable/ic_delete_blue" />
+
+            <TextView
+                style="@style/EditBarTextViewStyle"
+                android:text="@string/str_delete" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_inverse"
+            style="@style/EditBarItemStyle">
+
+            <ImageView
+                style="@style/EditBarImageViewStyle"
+                android:src="@drawable/ic_inverse" />
+
+            <TextView
+                style="@style/EditBarTextViewStyle"
+                android:text="@string/str_inverse" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_select_all"
+            style="@style/EditBarItemStyle">
+
+            <ImageView
+                style="@style/EditBarImageViewStyle"
+                android:src="@drawable/ic_select_all" />
+            <TextView
+                style="@style/EditBarTextViewStyle"
+                android:text="@string/str_select_all" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    android:orientation="vertical"-->
+    <!--    tools:context=".MainActivity">-->
+    <!--    <ListView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:id="@+id/listview"></ListView>-->
+    <!--</LinearLayout>-->

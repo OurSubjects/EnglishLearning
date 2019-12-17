@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--列表界面的长按 工具条里面的图标样式-->
+    <style name="EditBarImageViewStyle">
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_width">18dp</item>
+        <item name="android:layout_height">18dp</item>
+    </style>
+    <!--列表界面的长按 工具条里面的文本样式-->
+    <style name="EditBarTextViewStyle">
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_height">22dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/color_blue</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!--列表界面的长按 工具条里面的按钮样式-->
+    <style name="EditBarItemStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+    </style>
+    <style name="CustomDialogStyle" parent="@android:style/Theme.Dialog">
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@color/color_transparent</item>
+
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">false</item>
+
+        <!-- 背景模糊 -->
+        <item name="android:windowContentOverlay">@null</item>
+
+        <!-- 允许对话框的背景变暗 -->
+        <item name="android:backgroundDimEnabled">true</item>
+
+        <!-- 字体颜色 -->
+        <item name="android:textColor">@color/color_blue</item>
+        <item name="android:editTextColor">@color/color_blue</item>
+    </style>
+
+
+</resources>
