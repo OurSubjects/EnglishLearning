@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+    android:background="@drawable/dialog_circle_angle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/ll_A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@mipmap/ic_launcher"/>
+        <TextView
+            android:id="@+id/tv_content"
+            android:textSize="20sp"
+            android:text="你还没有选择职业,请选择职业"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/color_blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/ll_A"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginVertical="15dp">
+        <TextView
+            android:textSize="18sp"
+            android:gravity="center"
+            android:alpha="1"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tv_cancle"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/str_cancel"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tv_choose_job"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/color_blue"
+            android:text="@string/str_ok"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</RelativeLayout>
+
+
