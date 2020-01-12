@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        />
+
+    <TextView
+        android:id="@+id/text_Question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="The Question Will Show Here"
+        android:textSize="20dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_PracticeBackToMain"
+        />
+
+    <TextView
+        android:id="@+id/text_Answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="The Answer Will Show Here"
+        android:textSize="20dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button_CheckAnswer"
+        />
+
+
+
+    <Button
+        android:id="@+id/button_PracticeBackToMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="返回"
+        android:textSize="24dp"
+        android:fontFamily="monospace"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <Button
+        android:id="@+id/button_CheckAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="查看答案"
+        android:textSize="24dp"
+        android:fontFamily="monospace"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+
+    <Button
+        android:id="@+id/button_Play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="播放"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/text_Question"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

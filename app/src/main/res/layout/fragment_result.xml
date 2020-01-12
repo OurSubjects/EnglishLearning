@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:id="@+id/topWhite">
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topWhite"
+        android:layout_above="@+id/bottom_buttons">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:orientation="vertical">
+
+
+            <include layout="@layout/result_query" />
+
+            <include layout="@layout/result_speech_phonetic" />
+
+            <include layout="@layout/result_translation" />
+
+            <include layout="@layout/result_explains" />
+
+            <include layout="@layout/result_web" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/bottom_buttons"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="0dp"
+            android:layout_width="120dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="收藏"
+            android:textSize="16sp"
+            android:background="@drawable/icon_button"
+            android:id="@+id/btn_recite_next1"
+            />
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="120dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="不认识"
+            android:textSize="16sp"
+            android:background="@drawable/icon_button"
+            android:id="@+id/btn_recite_next3"
+            />
+
+        <Button
+            android:layout_marginRight="20dp"
+            android:layout_width="120dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="下一个"
+            android:textSize="16sp"
+            android:background="@drawable/icon_button"
+            android:id="@+id/btn_recite_next2"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
