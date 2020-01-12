@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_blue">#1777CB</color>
+    <color name="color_transparent">#01000000</color>
+    <color name="color_gray">#b0b0b0</color>
+
+    <color name="white_txt">#fafff0</color>
+
+
+    <!--主色调-->
+    <color name="colorBlue">#1abefa</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <!--搜索记录子项-->
+
+    <!--单词本子项-->
+
+    <!--搜索结果字体-->
+    <color name="colorResultText">#000000</color>
 </resources>

@@ -1,4 +1,34 @@
 <resources>
     <string name="app_name">EnglishLearning</string>
     <string name="action_settings">Settings</string>
+
+    <!-- 输入框提示 -->
+
+    <!-- 音标-->
+    <string name="uk">" "英" "</string>
+    <string name="us">" "美" "</string>
+
+    <!--标签-->
+    <string name="translation_label">有道翻译：</string>
+    <string name="explains_label">基本释义：</string>
+    <string name="web_label">网络释义：</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--About mainActivity-->
+
+
+    <!--About TxTActivity-->
+    <string name="title_activity_txt">文本输入</string>
+    <string name="txt_del_add_toast">删除数据成功</string>
+    <string name="txt_add_toast1">保存成功，总计</string>
+    <string name="txt_add_toast2">个</string>
+
+    <!--TTS Activity-->
+
+    <!--通用-->
+    <string name="str_ok">确定</string>
+    <string name="str_cancel">取消</string>
+    <string name="str_delete">删除</string>
+    <string name="str_select_all">全选</string>
+    <string name="str_inverse">反选</string>
 </resources>

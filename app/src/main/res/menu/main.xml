@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <menu xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_cart2"
+        android:enabled="true"
+        android:title="添加"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_cart3"
+        android:enabled="true"
+        android:title="学习"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_cart"
+        android:enabled="true"
+        android:title="完成"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+    </menu>

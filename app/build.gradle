@@ -27,4 +27,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    implementation 'com.squareup.okhttp3:okhttp:4.2.2'
+    implementation 'de.gerdi-project:GSON:6.0.3'
+    implementation 'com.android.support:cardview-v7:29.0.0'
 }
